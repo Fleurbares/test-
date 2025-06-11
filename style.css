@@ -142,7 +142,7 @@ main.container {
 
 .images img {
   width: 50%;
-  height: 3000px; /* ⚠️ Possible erreur ici, à revoir */
+  height: auto;
   object-fit: contain;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
