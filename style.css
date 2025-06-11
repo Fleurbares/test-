@@ -126,7 +126,7 @@ main.container {
 .content-section p {
   font-size: 1.1rem;
   color: #444;
-  max-width: 700px;
+  max-width: 300px;
   line-height: 1.4;
   text-align: left;
 }
@@ -142,7 +142,7 @@ main.container {
 
 .images img {
   width: 50%;
-  height: auto;
+  height: 3000px
   object-fit: contain;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
@@ -217,4 +217,15 @@ footer {
 .box:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.logo-insta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo-insta {
+  width: 30px; 
+  height: auto;
 }
